@@ -1,6 +1,19 @@
 # Local A-Frame boilerplate
 
-Eine Boilerplate, die es recht einfach macht, lokal auf dem eignen rechter Anfrage zu entwickeln.
+## ToDo's
+
+- [ ] index.js
+  - [ ] bundle.js
+- [ ] index.html
+  - [ ] Aframe module
+- [ ] Readme retouch
+- [ ] aframe-watcher
+  - [ ] npm script for aframe-watcher
+  - [ ] not global
+- [ ] gulp
+  - [ ] npm script for gulp
+  - [ ] Clean up ?!
+  - [ ] not global
 
 ## How to use
 
