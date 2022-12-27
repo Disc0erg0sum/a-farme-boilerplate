@@ -4,13 +4,16 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "inspect": "node_modules/.bin/aframe-watcher ./src"
   },
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "aframe-watcher": "^1.4.0",
     "browser-sync": "^2.27.10",
     "gulp": "^4.0.2",
+    "gulp-cli": "^2.3.0",
     "gulp-htmlmin": "^5.0.1",
     "gulp-plumber": "^1.2.1",
     "gulp-sourcemaps": "^3.0.0",

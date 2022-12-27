@@ -8,12 +8,20 @@
   - [ ] Aframe module
 - [ ] Readme retouch
 - [ ] aframe-watcher
-  - [ ] npm script for aframe-watcher
-  - [ ] not global
+  - [ ] auto inject
+  - [x] npm script for aframe-watcher
+  - [x] not global
 - [ ] gulp
   - [ ] npm script for gulp
   - [ ] Clean up ?!
-  - [ ] not global
+  - [ ] optimize images
+  - [x] not global
+- [ ] package.json
+  - [ ] npm scripts
+  - [ ] dependencies
+  - [ ] description
+  - [ ] meta
+- [ ] usr test
 
 ## How to use
 
@@ -54,12 +62,6 @@ cd der/pfad/zur/a-farme-boilerplate
 dann
 
 ```bash
-npm install -g gulp-cli aframe-watcher
-```
-
-und dann
-
-```bash
 npm install
 ```
 
@@ -86,13 +88,7 @@ gulp
 Öffne ein zweites Terminal und gehe in den Order von der Boilerplate
 
 ```bash
-cd der/pfad/zur/a-farme-boilerplate
-```
-
-und dann
-
-```bash
-aframe-watcher src/index.html
+npm run inspect
 ```
 
 ---
